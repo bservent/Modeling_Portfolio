@@ -14,7 +14,7 @@ function Footer() {
         <button type="submit">Keep in Touch</button>
       </div>
 
-      <p className="copyright">&copy;2016 Sarah Holden</p>
+      <p className="copyright">&copy;2021 Brittany Servent</p>
     </footer>
   </div>
   )

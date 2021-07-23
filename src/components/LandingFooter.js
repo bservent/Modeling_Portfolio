@@ -13,7 +13,7 @@ function Footer() {
     <button type="submit">Subscribe</button>
   </div>
 
-  <p class="copyright">&copy;2016 Sarah Holden</p>
+  <p class="copyright">&copy;2021 Brittany Servent</p>
 </footer>
 
   )
