@@ -5,6 +5,8 @@ header {
 	background-image: url('../images/home_header_bg.jpg');
 	background-attachment: fixed;
 	height: 100vh;
+	margin-left: 2rem;
+	margin-right: 2rem;
 }
 
 /* ----------------------------------------

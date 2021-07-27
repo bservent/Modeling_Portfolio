@@ -10,8 +10,8 @@ function Gallery() {
   return (
   <section id="gallery">
       <div className="wrap">
-        <h2>Issue Twenty</h2>
-        <h3>A visual guide to the Southwest</h3>
+        <h2>Visual Guide</h2>
+        <h3>The Object of Art is to Give Life Shape</h3>
         <div className="masonry">
           <img src={galleryImageOne} alt="" />
           <img src={galleryImageTwo} alt="" />
