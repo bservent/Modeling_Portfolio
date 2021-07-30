@@ -6,6 +6,8 @@ import galleryImageFour from '../images/gallery_4.jpg';
 import galleryImageFive from '../images/gallery_5.jpg';
 import galleryImageSix from '../images/gallery_6.jpg';
 
+
+
 function Gallery() {
   return (
   <section id="gallery">
@@ -19,6 +21,8 @@ function Gallery() {
           <img src={galleryImageFour} alt="" />
           <img src={galleryImageFive} alt="" />
           <img src={galleryImageSix} alt="" />
+ 
+        
         </div>
       </div>
 	</section>
