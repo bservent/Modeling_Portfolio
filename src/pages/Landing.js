@@ -11,7 +11,7 @@ function Landing(props) {
   return (
     <div>
       <Header />
-      <Archive />
+    {/*   <Archive /> */}
       <Callout />
       <Gallery />
       <Contact />

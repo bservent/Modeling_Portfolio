@@ -12,11 +12,11 @@ html {
 body {
 	font-family: 'Raleway', sans-serif;
 	-webkit-font-smoothing: antialiased;
-	margin: 0;
 	text-transform: uppercase;
 	letter-spacing: .02em;
 	text-align: center;
-	color: #44545;
+	margin:none;
+	padding: none;
 }
 
 /* Responsive images */
@@ -28,13 +28,13 @@ img {
 Typography
 ------------------------------------------- */
 p {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Fjalla One', sans-serif !important;
 	text-transform: none;
-	line-height: 1.4;
+	line-height: 1.5;
 }
 
 h1, h2, h3, h4 {
-	font-weight: 600;
+	font-weight: 500;
 }
 
 h1 {
@@ -56,13 +56,13 @@ h3 {
 
 a {
 	text-decoration: none;
-	color: #7B98AA;
+	color: rgba(10, 9, 9, 0.6);
 	font-weight: 600;
 	transition: all .3s ease-in-out;
 }
 
 a:hover {
-	color: #44545E;
+	color: rgba(3, 70, 63, 0.333);
 }
 
 
@@ -90,9 +90,9 @@ li {
 Layout
 ------------------------------------------- */
 section {
-	padding: 105px 30px;
-	padding: 7rem 2rem;
-}
+	padding: 40px 30px;
+	padding: 4rem 2rem;
+} 
 
 .wrap {
 	max-width: 1000px;
@@ -138,14 +138,13 @@ section {
 }
 
 .callout {
-	background-color: #CFF2F6;
+	background-color: #64578c81;
 }
 
 /* ----------------------------------------
 Header
 ------------------------------------------- */
 header {
-	padding-top: 30px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -163,7 +162,7 @@ nav li {
 }
 
 nav a {
-	font-weight: 600;
+	font-weight: 500;
 	letter-spacing: 0.75px;
 	letter-spacing: .05rem;
 	padding: 3px 60px;
@@ -294,7 +293,7 @@ input, textarea {
 Footer
 ------------------------------------------- */
 footer {
-	background-color: #CDF3F6;
+	background-color: #8888;
 	overflow: auto;
 }
 
