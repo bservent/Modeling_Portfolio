@@ -61,7 +61,7 @@ a {
 }
 
 a:hover {
-	color: #B1AAC5 !important;
+	color: #2F2981 !important;
 }
 
 
@@ -293,6 +293,11 @@ input, textarea {
    font-size: 12.299px;
    font-size: .82rem;
    font-weight: 600; 
+}
+
+#contact h2 {
+	font-weight: 800;
+	text-decoration: underline;
 }
 
 /* ----------------------------------------
