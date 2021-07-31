@@ -188,24 +188,31 @@ Buttons
 button {
 	cursor: pointer;
 	outline: 0;
-	border: 2px solid #44545E;
+	border: 2px solid white;
 	color: #44545E;
 	padding: 8px 25.5px;
 	padding: 8px 1.7rem;
-	background-color: transparent;
+	color:white;
+	background-color: black;
+	opacity: .8;
 	font-weight: 500;
 	text-transform: uppercase;
 	font-size: 12.299px;
 	font-size: .82rem;
+	font-weight: 600;
 	letter-spacing: 1.2px;
 	letter-spacing: .08rem;
 	transition: all .3s ease-in-out;
 }
 
 button:hover {
-	background-color: #44545E;
-	color: white;
+	background-color: white;
+	color: black;
 	font-weight: 600;
+}
+
+button::after {
+	color: black;
 }
 
 .articles button {
@@ -325,6 +332,7 @@ footer .wrap {
 	border-top: 2px solid white;
 	padding: 15px 0 3px;
 	padding: 1rem 0 .2rem;
+	color: white;
 }
 
 /* ----------------------------------------
