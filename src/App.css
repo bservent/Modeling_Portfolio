@@ -57,12 +57,11 @@ h3 {
 a {
 	text-decoration: none;
 	color: rgba(10, 9, 9, 0.6);
-	font-weight: 600;
 	transition: all .3s ease-in-out;
 }
 
 a:hover {
-	color: rgba(3, 70, 63, 0.333);
+	color: #B1AAC5 !important;
 }
 
 
@@ -138,7 +137,7 @@ section {
 }
 
 .callout {
-	background-color: #64578c81;
+	background-image: url("/Users/brittybear/Documents/personal_projects/modeling_portfolio/src/images/nick-fewings-FKh5ARZOODI-unsplash.jpg");
 }
 
 /* ----------------------------------------
@@ -162,7 +161,7 @@ nav li {
 }
 
 nav a {
-	font-weight: 500;
+	font-weight: 750;
 	letter-spacing: 0.75px;
 	letter-spacing: .05rem;
 	padding: 3px 60px;
@@ -293,7 +292,7 @@ input, textarea {
 Footer
 ------------------------------------------- */
 footer {
-	background-color: #8888;
+	background-image: url("/Users/brittybear/Documents/personal_projects/modeling_portfolio/src/images/nick-fewings-FKh5ARZOODI-unsplash.jpg");
 	overflow: auto;
 }
 
@@ -323,7 +322,7 @@ footer .wrap {
 }
 
 .copyright {
-	border-top: 2px solid #44545E;
+	border-top: 2px solid white;
 	padding: 15px 0 3px;
 	padding: 1rem 0 .2rem;
 }
